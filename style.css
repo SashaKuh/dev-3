@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.text-output {
+    border: 1px solid #000;
+    margin-top: 10px;
+    min-height: 50px;
+    padding: 5px;
+    position: relative;
+}
+.draggable {
+    display: inline-block;
+    cursor: move;
+    user-select: none;
+}
+.selected {
+    background-color: yellow;
+}
