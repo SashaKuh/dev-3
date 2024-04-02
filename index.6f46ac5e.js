@@ -1,0 +1,2 @@
+let e;e=[],document.addEventListener("keydown",function(t){"Control"===t.key&&document.querySelectorAll(".draggable").forEach(function(t){t.addEventListener("click",function(){e.includes(this)?(this.classList.remove("selected"),e.splice(e.indexOf(this),1)):(this.classList.add("selected"),e.push(this))})})}),document.addEventListener("keyup",function(e){"Control"===e.key&&document.querySelectorAll(".draggable").forEach(function(e){e.removeEventListener("click",function(){})})});
+//# sourceMappingURL=index.6f46ac5e.js.map
